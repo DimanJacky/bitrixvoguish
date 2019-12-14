@@ -1,1 +1,0 @@
-<?php $filesInfo = array("/bitrix/js/main/session.js" => "15762429092511","/bitrix/js/main/core/core_window.js" => "157624287875756","/bitrix/js/main/date/main.date.js" => "157624287916373","/bitrix/js/main/core/core_date.js" => "157624287824926","/bitrix/js/main/utils.js" => "157624290919858","/bitrix/js/main/core/core_fx.js" => "15762428789768",); ?>
