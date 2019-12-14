@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69327561-7a31-4814-828f-70dc5c1c4f08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.access.php" beforeDir="false" afterPath="$PROJECT_DIR$/.access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/cache/main/mail/smtp/bc/bcc08749ee4e2b6d4942051ac7d0f7a5.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/cache/main/mail/smtp/bc/bcc08749ee4e2b6d4942051ac7d0f7a5.php" afterDir="false" />
-    </list>
+    <list default="true" id="69327561-7a31-4814-828f-70dc5c1c4f08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,7 @@
       <updated>1576262707665</updated>
       <workItem from="1576262733648" duration="829000" />
       <workItem from="1576267377203" duration="5493000" />
-      <workItem from="1576284190057" duration="884000" />
+      <workItem from="1576284190057" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1576284631242</created>
@@ -180,11 +177,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7206000" />
+    <option name="totallyTimeSpent" value="7844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="24" width="1218" height="655" extended-state="0" />
-    <editor active="true" />
+    <frame x="41" y="24" width="1218" height="655" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26079446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
