@@ -6,4 +6,4 @@ $APPLICATION->SetPageProperty("title", "sdafasf");
 $APPLICATION->SetPageProperty("keywords", "sdfsdfsdf");
 $APPLICATION->SetPageProperty("description", "sdfsdf");
 $APPLICATION->SetTitle("Test");
-?>sdfsafsafsa<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?>test<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

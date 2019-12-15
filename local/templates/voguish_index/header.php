@@ -51,9 +51,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- header -->
 <div class="header">
     <div class="container">
-        <div class="logo">
-            <a href="index.html"><img src="<?=SITE_TEMPLATE_PATH;?>/images/logo.png" class="img-responsive" alt=""></a>
-        </div>
+
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/logo.php"
+            )
+        );?>
 
         <div class="head-nav">
             <span class="menu"> </span>
