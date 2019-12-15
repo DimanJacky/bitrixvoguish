@@ -1,53 +1,77 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости банка");
-?><?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
-	".default",
-	Array(
-		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "1",
-		"NEWS_COUNT" => "20",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_ORDER1" => "DESC",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER2" => "ASC",
-		"FILTER_NAME" => "",
-		"FIELD_CODE" => array(0=>"",1=>"",),
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
-		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_SHADOW" => "Y",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "36000000",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"DISPLAY_PANEL" => "N",
-		"SET_TITLE" => "N",
-		"SET_STATUS_404" => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"DISPLAY_TOP_PAGER" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"PAGER_TITLE" => "Новости",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => "",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000000",
-		"PAGER_SHOW_ALL" => "N",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "Y",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"AJAX_OPTION_ADDITIONAL" => ""
-	)
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="header-slider">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides" id="slider">
+                        <li>
+                            <img src="<?=SITE_TEMPLATE_PATH;?>/images/1.jpg" class="img-responsive" alt="">
+                            <div class="caption">
+                                <h3>Maecenas malesuada elit lectus felis</h3>
+                                <p>Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="<?=SITE_TEMPLATE_PATH;?>/images/4.jpg" class="img-responsive" alt="">
+                            <div class="caption">
+                                <h3>Curabitur et ligula. Ut molestie </h3>
+                                <p>Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulu. </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="<?=SITE_TEMPLATE_PATH;?>/images/5.jpg" class="img-responsive" alt="">
+                            <div class="caption">
+                                <h3>Etiam ullamcorper. Suspendisse</h3>
+                                <p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="<?=SITE_TEMPLATE_PATH;?>/images/6.jpg" class="img-responsive" alt="">
+                            <div class="caption">
+                                <h3>Suspendisse a pellentesque dui</h3>
+                                <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada .</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <!-- nam-matis -->
+    <div class="nam-matis">
+        <div class="nam-matis-top">
+            <div class="col-md-6 nam-matis-1">
+                <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH;?>/images/5.jpg" class="img-responsive" alt=""></a>
+                <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
+                <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
+            </div>
+            <div class="col-md-6 nam-matis-1">
+                <a href=""><img src="<?=SITE_TEMPLATE_PATH;?>/images/6.jpg" class="img-responsive" alt=""></a>
+                <h3><a href="">Suspendisse a pellentesque dui</a></h3>
+                <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="nam-matis-top">
+            <div class="col-md-6 nam-matis-1">
+                <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH;?>/images/4.jpg" class="img-responsive" alt=""></a>
+                <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
+                <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
+            </div>
+            <div class="col-md-6 nam-matis-1">
+                <a href="single.html"><img src="<?=SITE_TEMPLATE_PATH;?>/images/1.jpg" class="img-responsive" alt=""></a>
+                <h3><a href="single.html">Suspendisse a pellentesque dui</a></h3>
+                <p>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- nam-matis -->
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
